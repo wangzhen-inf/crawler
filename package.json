@@ -1,0 +1,37 @@
+{
+  "name": "crawler",
+  "description": "The most effective async crawler ever.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/wangzhen-inf/crawler",
+  "author": {
+    "name": "Zhen Wang",
+    "email": "zhen.w@live.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:wangzhen-inf/crawler.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wangzhen-inf/crawler/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/wangzhen-inf/crawler/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/crawler",
+  "engines": {
+    "node": ">= 0.12.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt": "~0.4.5"
+  },
+  "keywords": []
+}
